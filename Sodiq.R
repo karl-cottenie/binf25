@@ -9,6 +9,7 @@ library(randomForest)
 library(tidyr)
 library(stringr)
 
+#
 #search for the anopheles in the ncbi database#
 df_anopheles_search = entrez_search(db = "nuccore", term = "anopheles [ORGN] AND COI [gene]", use_history = T)
 df_anopheles_search
